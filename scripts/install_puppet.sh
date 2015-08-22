@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "install puppet" >> /etc/puppet.install
+rpm -ivh https://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm
+yum install -y puppet
+
+

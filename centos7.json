@@ -74,6 +74,11 @@
         "memsize": "512",
         "numvcpus": "2"
       }
+    },
+    {
+      "type": "docker",
+      "image": "ubuntu",
+      "export_path": "image.tar"
     }
   ],
   "post-processors": [

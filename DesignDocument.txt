@@ -6,19 +6,25 @@ Approvers:
 Revison Number:	0.9
 Status:		Draft
 Executive Summary:	Deploy packer in order to reproducably produce system templates for a variety of virtualization environments and docker containers 
+
 Goals:		A template generation mechanism needs to 
+		- automate the generation of templates
 		- be reproducable
 		- make documenting the process of template creation easy
 		and should
 		- support a variety of architectures we deploy from one tool
-		- 
+
 Non-goals:
 Background:
 High-Level design:
 Detailed design:
 Cost projection:
-Schedule after approval:
-Alternatives considered:
+Schedule after approval: - 
+Alternatives considered: - keep creating templates and containers manually
+				- leads to issues in reproducability
+				- leads to issues in documentability 
+				- leads to manual efforts that can be reduced 
+
 Special constraints:
 
 

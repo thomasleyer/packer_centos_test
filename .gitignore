@@ -1,3 +1,4 @@
 VBoxGuestAdditions.iso
 builds
 packer_cache
+http/packages/
